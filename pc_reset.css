@@ -31,6 +31,7 @@ li, main, nav, ol, p, section, span, ul{
    margin: 0;
    padding: 0;
    vertical-align: baseline;
+   /* Note: All modern browsers support box-sizing, so specifying is not necessary */
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
